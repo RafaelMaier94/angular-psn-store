@@ -1,0 +1,17 @@
+<div class="card__container">
+  <a>
+    <img
+      [ngStyle]="{ position: 'relative !important' }"
+      src="{{ gameCover }}"
+      alt=""
+      class="card__image"
+    />
+    <app-card-pricing
+      gamePrice="{{ gamePrice }}"
+      gameTitle="{{ gameTitle }}"
+      gamePrice="{{ gamePrice }}"
+      gameType="{{ gameType }}"
+    ></app-card-pricing>
+    <app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
+  </a>
+</div>
